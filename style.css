@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Inconsolata&family=Noto+Sans:wght@600&family=Open+Sans&family=Poppins:wght@500&display=swap');
+
+/* CSS Reset  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(15, 15, 15);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container .calculator {
+    border: 2px solid rgb(49, 46, 46);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.container .calculator h1 {
+    color: white;
+    padding-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 3px;
+}
+
+.container .calculator input {
+    padding: 10px 10px;
+    width: 95%;
+    background-color: black;
+    color: white;
+    border: 2px solid rgb(49, 46, 46);
+    outline: none;
+    font-size: 1rem;
+    margin-bottom: 25px;
+    letter-spacing: 3px; 
+}
+
+.container .calculator input::placeholder {
+    color: white;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    margin: 5px 5px;
+    border: 2px solid rgb(49, 46, 46);
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px rgb(49, 46, 46);
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+}
+
+/* Utils Class  */
+.green-color {
+    color: rgb(25 247 232);
+}
+
+.bg-color {
+    background-color: rgb(255 167 2);
+}
